@@ -1,8 +1,15 @@
 class Car {
     Integer id;
     String license;
-    String driver;
+    Account driver;
     Integer passenger;
+// Requisitos obligatorios de la clase
+    public Car (String license,Account Driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+
 
     void printDatacar (){
 
